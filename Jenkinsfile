@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('TEST') {
       steps {
-        sh 'sudo npm install'
+        sh 'echo "Hello worl"'
       }
     }
 
