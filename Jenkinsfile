@@ -9,7 +9,8 @@ pipeline {
   stages {
     stage('TEST') {
       steps {
-        sh 'nmp install'
+        sh 'apk add --no-cache npm'
+        sh 'npm install'
       }
     }
 
